@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "Zoo-Arcandia",
+			"path": "."
+		},
+		{
+			"name": "node_modules",
+			"path": "../../test arcandia/Nouveau dossier/node_modules"
+		},
+		{
+			"name": "pages",
+			"path": "../../test arcandia/Nouveau dossier/pages"
+		},
+		{
+			"path": "../../test arcandia/Nouveau dossier/Rooter"
+		}
+	],
+	"settings": {}
+}
