@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(/node_modules/bootstrap-icons/font/bootstrap-icons.css);
+@import url(node_modules/bootstrap-icons/font/bootstrap-icons.css);
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -11972,7 +11972,7 @@ html {
 }
 
 main {
-  margin-bottom: 210px;
+  margin-bottom: 230px;
 }
 
 footer.footer {
@@ -11985,4 +11985,57 @@ footer.footer {
 p {
   font-family: "Manjari", sans-serif;
   font-size: 18px;
+}
+
+.flux {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* START: Masthead Home */
+.containerMasthead {
+  position: relative;
+  text-align: center;
+}
+
+.masthead {
+  width: 100%;
+}
+
+.namePark {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* END : Masthead */
+/* START: Intro Home */
+.intro-home {
+  text-align: center;
+}
+
+.title-intro {
+  margin-top: 20px;
+  color: #90E98F;
+}
+
+/* Carrousel*/
+.bg-dark {
+  padding: 2rem;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+/* Button Carousel*/
+.btn {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,4 +1,4 @@
-@import url(/node_modules/bootstrap-icons/font/bootstrap-icons.css);
+@import url(node_modules/bootstrap-icons/font/bootstrap-icons.css);
 @import 'custom';
 
 html{
@@ -6,9 +6,10 @@ html{
     min-height: 100%;
 }
 main{
-    margin-bottom: 210px;
+    margin-bottom: 230px;
 }
 footer.footer{
+    
     padding: 15px;
     position:absolute;
     bottom: 0;
@@ -19,5 +20,52 @@ p{
     font-family: $font-family-sans-serif;
     font-size: 18px;
 }
+.flux {
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
-.herp
+/* START: Masthead Home */
+.containerMasthead{
+    position: relative;
+    text-align: center;
+}
+.masthead {
+    width: 100%;
+}
+
+.namePark {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* END : Masthead */
+
+/* START: Intro Home */
+ .intro-home{
+    text-align: center;
+
+ }
+ .title-intro {
+    margin-top: 20px;
+    color: $primary;
+ }
+/* Carrousel*/
+.bg-dark{
+    padding: 2rem;
+}
+ .col-centered {
+    float: none;
+    margin: 0 auto;
+ }
+/* Button Carousel*/
+ .btn {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+ }
