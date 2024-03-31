@@ -12038,4 +12038,13 @@ p {
   display: flex;
   margin: auto;
   margin-top: 20px;
+}
+
+/* Veterinary*/
+.containerVet {
+  margin-top: 100px;
+}
+
+.card-text {
+  font-size: 12px;
 }/*# sourceMappingURL=main.css.map */
