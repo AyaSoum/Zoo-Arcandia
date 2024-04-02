@@ -2,12 +2,20 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
-$primary: #90E98F;
+$primary: #005a35;
 $secondary: #CAAD82;
 $dark:#533913;
-$green: #046D0E;
+$green: #62c933;
 $font-family-sans-serif:'Manjari', sans-serif !default;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
+.mt-5 {
+    margin-top: 100px !important;
+}
+.my-5 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

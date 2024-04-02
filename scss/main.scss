@@ -5,6 +5,7 @@ html{
     position: relative;
     min-height: 100%;
 }
+
 main{
     margin-bottom: 230px;
 }
@@ -43,15 +44,16 @@ p{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    &:hover {
+        font-size: 200px ;
+        transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
 }
 
 /* END : Masthead */
 
 /* START: Intro Home */
- .intro-home{
-    text-align: center;
-
- }
+ 
  .title-intro {
     margin-top: 20px;
     color: $primary;
@@ -71,11 +73,44 @@ p{
     margin-top: 20px;
  }
 /* Veterinary*/
- .containerVet {
-    margin-top:100px;
- }
-
+ 
  .card-text {
     font-size: 12px;
  }
 
+ 
+ @media screen and (max-width:768px) and (orientation:portrait)
+ {
+     .patteAnimal {
+         display: none;
+     }
+ }
+
+ .image-card{
+    position:relative;
+    &:hover{
+        .titre-image{
+            opacity: 2;
+            color: #ffff;
+            
+        }
+        img{
+            filter: brightness(0.6);
+        }
+    }
+
+    img{
+        transition: all 0.3s;
+    }
+
+    .titre-image{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: all 0.3s;
+        text-decoration: none;
+        font-size: 50px;
+    }
+}
