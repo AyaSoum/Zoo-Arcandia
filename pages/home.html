@@ -1,34 +1,35 @@
 
-    <!-- Masthead -->
-<header class="containerMasthead">
-      
-    <h1 class="namePark">Arcandia</h1>
-    <img src="images/header2.jpg" class="masthead img-fluid">
-</header>
+    <!-- Start: Hero -->
 
-<!--End: Masthead-->
+    <div class="hero-scene p-5 text-center text-white">
+      <div class="hero-scene-content">
+          <h1 class="fw-bold p-3">Arcandia</h1>
+      </div>
+  </div>
+  
+<!--End: Hero-->
 
-    <!--START: Main Introduction-->
+    <!--START: Home Introduction-->
 
-<article class="container my-5 p-3 text-center">
-    <h2 class="m-4 title-intro text-primary">Bienvenue à Arcandia</h2>
+<article class="container my-5 text-center">
+    <h2 class="bigtitle">Bienvenue à Arcandia</h2>
     <p class=" text-dark">Découvrez Arcandia, un parc unique en France situé à 15 min de Nantes, où vous embarquerez pour un voyage extraordinaire à la rencontre de 1100 animaux représentant 120 espèces différentes. Les 3 univers de visite vous invitent à rencontrer des animaux dans leur habitat naturel, mais aussi à suivre leur santé et leur bien-être !</p>
 </article>
 
-    <!--START: Main Carousel-->
+<!--START: Home Carousel-->
 
 <section class=" intro-carousel bg-dark">
     <div class="col-sm-6 col-centered">
         <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="/images/tiger.jpg" class="d-block w-100" alt="...">
+                <img src="/images/jungle/kiero-tigre.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="/images/giraffe.jpg" class="d-block w-100" alt="...">
+                <img src="/images/savane/Fifi-girafe.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="/images/flamingos.jpg" class="d-block w-100" alt="...">
+                <img src="/images/marais/flamingos.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -44,12 +45,14 @@
     <button type="button" class="btn btn-secondary">Découvrir le parc</button>
 </section>
 
-    <!--START: Main Section vetenary-->
+<!--END: Home Carousel-->
+
+<!--START: Vetenary-->
 
 <article class="container p-5">
-        <h2 class="text-center text-primary">Les vétérinaires</h2>
-        <div class=" p-4 row row-cols-2 align-items-center">
-            <div class="col">
+        <h2 class="bigtitle">Les vétérinaires</h2>
+        <div class=" content-vet p-4 row row-cols-2 align-items-center">
+            <div class="col img-vet">
                 <img class="w-100 rounded" src="../images/vétérinaireSmall.jpg"/>
             </div>
             <div class="col">
@@ -60,11 +63,13 @@
         </div>
 </article>
 
-     <!--START: Main Avis-->
+<!--END: Vetenary-->
 
-<section class="bg-primary p-4 ">
+<!--START: Home Avis-->
+
+<section class="avis bg-primary p-4 ">
     <h2 class="text-center text-white ">Vos avis:</h2>
-<div class="row row-cols-1 row-cols-md-3 g-4 flux">
+<div class=" avis-content row row-cols-1 row-cols-md-3 g-4 flux">
     <div class="col">
       <div class="card h-100 shadow">
         <div class="card-body">
@@ -94,3 +99,5 @@
     </div>
   </div>
 </section>
+
+<!--END: Home Avis-->

@@ -11975,6 +11975,39 @@ textarea.form-control-lg {
   margin-bottom: 100px;
 }
 
+@media (max-width: 767.98px) {
+  .hero-scene {
+    height: 200px;
+  }
+  .hero-scene .hero-scene-content {
+    display: none !important;
+  }
+  .content-vet {
+    justify-content: center;
+    padding: 0 !important;
+  }
+  .content-vet .img-vet {
+    display: none;
+  }
+  .avis {
+    width: auto;
+  }
+  .avis-content {
+    margin: auto;
+  }
+  .parc-content {
+    flex-direction: column;
+  }
+  .parc-content .patteAnimal {
+    display: none;
+  }
+  .visite-centent {
+    display: block;
+  }
+  .visite-centent h3, .visite-centent .h3 {
+    padding: 20px;
+  }
+}
 html {
   position: relative;
   min-height: 100%;
@@ -11994,6 +12027,7 @@ footer.footer {
 p {
   font-family: "Manjari", sans-serif;
   font-size: 18px;
+  text-align: center;
 }
 
 .flux {
@@ -12001,37 +12035,42 @@ p {
   margin-right: 100px;
 }
 
-/* START: Masthead Home */
-.containerMasthead {
-  position: relative;
+.bigtitle {
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #005a35;
   text-align: center;
 }
 
-.masthead {
-  width: 100%;
+/* START: Hero */
+.hero-scene {
+  position: relative;
 }
-
-.namePark {
-  font-size: 50px;
-  font-weight: bold;
-  color: white;
+.hero-scene::before {
+  content: "";
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/saïmiri-bandeau.jpg);
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(0.5);
 }
-.namePark:hover {
-  font-size: 200px;
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+.hero-scene * {
+  position: relative;
+}
+.hero-scene .hero-scene-content {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* END : Masthead */
-/* START: Intro Home */
-.title-intro {
-  margin-top: 20px;
-  color: #005a35;
-}
-
 /* Carrousel*/
 .bg-dark {
   padding: 2rem;
@@ -12054,11 +12093,6 @@ p {
   font-size: 12px;
 }
 
-@media screen and (max-width: 768px) and (orientation: portrait) {
-  .patteAnimal {
-    display: none;
-  }
-}
 .image-card {
   position: relative;
 }
@@ -12080,5 +12114,5 @@ p {
   opacity: 0;
   transition: all 0.3s;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */
