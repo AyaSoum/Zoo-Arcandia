@@ -12046,6 +12046,7 @@ p {
 /* START: Hero */
 .hero-scene {
   position: relative;
+  margin-bottom: 50px;
 }
 .hero-scene::before {
   content: "";
@@ -12115,4 +12116,8 @@ p {
   transition: all 0.3s;
   text-decoration: none;
   font-size: 20px;
+}
+
+.form-label {
+  color: #005a35;
 }/*# sourceMappingURL=main.css.map */

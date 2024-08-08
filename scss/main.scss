@@ -81,6 +81,7 @@ p{
 /* START: Hero */
 .hero-scene{
     position: relative;
+    margin-bottom: 50px;
     &::before{
         content:"";
         position: absolute;
@@ -156,4 +157,7 @@ p{
         text-decoration: none;
         font-size: 20px;
     }
+}
+.form-label{
+    color: $primary;
 }

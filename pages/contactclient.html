@@ -10,12 +10,41 @@
 <!--End: Hero-->
 
 
-<article class="text-center mt-5">
+<article class="text-center ">
   <h2 class="text-primary ">Vous avez des questions? Un avis à partager?</h2>
   <p class="text-dark p-3">N'hésiter pas à nous contacter en remplissant un formulaire de contact. Notre équipe fera le nécessaire pour vous répondre dans le plus bref délai! Chaque avis compte et nous permet d'améliorer notre travail. Merci à celles et ceux qui participe à cette réssite.</p>
-  <button class="btn px-5 btn-primary"  type="button">Contact</button>
 </article>
 
-<form action="">
-  
-</form>
+<div class="container my-4">
+  <h3 class="text-center text-primary p-5 ">Formulaire de contact</h3>
+<div class="container">
+  <form>
+    <div class="row mb-3">
+      <div class=" col-6">
+        <label for="NomInput" class="form-label">Nom</label>
+        <input type="text" class="form-control" id="NomInput" placeholder="Votre nom"  name="Nom"> 
+      </div>
+      <div class=" col-6">
+        <label for="PrenomInput" class="form-label">Prénom</label>
+        <input type="text" class="form-control" id="PrenomInput" placeholder="Votre prénom" name="Prenom"> 
+      </div>
+    </div>
+    <div class="mb-3">
+          <label for="EmailInput" class="form-label">Adresse e-mail</label>
+          <input type="text" class="form-control" id="EmailInput" placeholder="votreEmail@email.com" name="EmailEmployé">  
+    </div>   
+    <select class="form-select form-select-sm mb-3" aria-label="Objet du message">
+      <option selected>Objet du message</option>
+      <option value="Avis">Donner un avis</option>
+      <option value="Reclamation">Faire une réclamation</option>
+      <option value="Autre">Autres...</option>
+    </select>
+    <div class="form-floating">
+      <textarea class="form-control" placeholder="Ecrire le message" id="TextareaAvis"></textarea>
+      <label for="TextareaAvis">Commentaire</label>
+    </div> 
+    <div class="text-center">
+            <button type="submit" class="btn btn-primary">Envoyer</button>    </div>
+  </form>
+</div>
+</div> 
